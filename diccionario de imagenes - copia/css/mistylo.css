@@ -1,0 +1,149 @@
+body{
+    font-family: raleway;
+}
+.elemento{
+    box-shadow: 0 4px 20px #000000;
+    float: left;
+    width: 28%;
+    margin: 15px;
+    padding: 15px;
+    background-color: aquamarine;
+    font-weight: bolder;
+    
+}
+.letra{
+    color: aliceblue;
+    float: left;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url("fondo6.jpg");
+}
+.letra:hover{
+    background-color: fuchsia;
+    color: white;
+}
+.autor{
+    border: 2px solid rgb(0, 0, 0);;
+}
+
+.menu{
+    z-index: 2;
+    border: 2px solid rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    font-family: Helvetica;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    background-image: url("fondo5.jpg");
+    
+}
+
+.menu a{
+    font-family: helvetica;
+    font-size: small;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(101, 117, 170);
+    transition-duration: 0.5s;
+
+}
+
+.menu a:hover{
+    font-weight: 800;
+    background: rgb(238, 235, 235);
+    color: rgb(110, 24, 110);
+    border: 6px solid rgb(77, 216, 130);
+    font-size: large;
+
+}
+
+.contenido{
+    border: 2px solid rgb(209, 17, 107);
+}
+
+.uno{
+    float: left;
+    width: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.foto{
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+.tarjeta{
+    width: 28%;
+    
+    display: inline-block;
+    margin: 1%;
+    position: relative;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+
+}
+.foto1{
+    padding: 5px;
+    margin: 1%;
+}
+.dato{
+    text-align: center;
+    font-size: large;
+}
+.dato:hover{
+    background-color: rgb(233, 183, 233);
+    color: white;
+}
+.barrai{
+    width: 90px;
+    background-color: rgb(241, 148, 210);
+    z-index: 2;
+    overflow: hidden;
+    margin-top: 55px;
+    position: fixed;
+    
+}
+.barrai a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: rgb(2, 2, 2);
+    font-size: 36px;
+   
+}
+.barrai a:hover{
+    background-color: rgb(32, 236, 236);
+}
+.activo{
+    background-color: #585858;
+}
+.buscador{
+    margin-left: 60%;
+    overflow: hidden;
+    position: fixed;
+}
+.buscador img{
+    vertical-align: middle;
+}
+.buscador input{
+    border: 0px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buscador input:hover{
+    border: 2px solid white;
+}
+.resaltado{
+    background-color: rgb(236, 84, 13);
+    color: #dbe914ee;
+}
